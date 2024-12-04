@@ -2,3 +2,4 @@ pkg-config
 default-libmysqlclient-dev
 mariadb-server
 mariadb-client
+cmake
