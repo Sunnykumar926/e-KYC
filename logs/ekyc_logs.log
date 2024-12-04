@@ -137,3 +137,12 @@
 [2024-12-04 14:40:20,100: WARNING: easyocr]: Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
 [2024-12-04 14:40:23,963: INFO: ocr_engine]: Inside Try-Catch...
 [2024-12-04 14:40:33,071: INFO: app]: Text extracted and information parsed from ID card.
+[2024-12-04 15:22:20,829: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-12-04 15:22:38,894: INFO: utils]: yaml  file: config.yaml loaded successfully
+[2024-12-04 15:22:39,103: INFO: __init__]: package: mysql.connector.plugins
+[2024-12-04 15:22:39,105: INFO: __init__]: plugin_name: caching_sha2_password
+[2024-12-04 15:22:39,105: INFO: __init__]: AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+[2024-12-04 15:22:39,229: INFO: app]: Page layout set to wider configuration.
+[2024-12-04 15:22:39,232: INFO: app]: Custom theme applied to Streamlit app.
+[2024-12-04 15:22:39,241: INFO: app]: ID card type selected: PAN
+[2024-12-04 15:22:39,244: INFO: app]: Header set for PAN Card registration.
