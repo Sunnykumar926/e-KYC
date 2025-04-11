@@ -64,5 +64,17 @@ The following libraries are required to run this project:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/eKYC-System.git
-   cd eKYC-System
+   git clone https://github.com/Sunnykumar926/eKYC.git
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd eKYC
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   pip install -r requirements_deepface.txt
+
+4. **Run the Streamlit app:**
+   ```bash
+   streamlit run app.py
