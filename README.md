@@ -75,6 +75,12 @@ The following libraries are required to run this project:
    pip install -r requirements.txt
    pip install -r requirements_deepface.txt
 
+4. **Run the Streamlit app:**
+   ```bash
+   streamlit run app.py
+
+---
+
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
@@ -98,6 +104,4 @@ Special appreciation to the open-source community for providing powerful tools a
 🌐 GitHub: [Sunnykumar926](https://github.com/Sunnykumar926)
 
 
-4. **Run the Streamlit app:**
-   ```bash
-   streamlit run app.py
+
