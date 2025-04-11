@@ -50,7 +50,7 @@ def set_custom_theme():
 # Sidebar
 def sidebar_section():
     st.sidebar.title("Select ID Card Type")
-    option = st.sidebar.selectbox("", ("PAN", " "))
+    option = st.sidebar.selectbox("", ("PAN", "AADHAR"))
     logging.info(f"ID card type selected: {option}")
     return option
 
@@ -86,11 +86,11 @@ def main_content(image_file, face_image_file, conn):
                 logging.info("Text extracted and information parsed from ID card.")
                 records = fetch_records(text_info)
                 if records.shape[0] > 0:
-                    st.write(records.shape)
-                    st.write(records)
+                    # st.write(records.shape)
+                    st.write(records.drop(columns=['embedding']))
                 is_duplicate = check_duplicacy(text_info)
                 if is_duplicate:
-                    st.write(f"User altext_info['DOB'] = {text_info['DOB'].strftime('%Y/%m/%d')}")
+                    st.write(f"")
                 else: 
                     st.write(text_info)
                    
@@ -127,4 +127,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-    print()
+    # print()
