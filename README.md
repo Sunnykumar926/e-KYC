@@ -17,6 +17,21 @@ An end-to-end eKYC (Electronic Know Your Customer) system built with Python, Dee
 - **Backend**: MySQL
 - **Web Framework**: Streamlit
 
+├── app.py                      # Streamlit front-end
+├── db_operations.py           # Custom DB handling
+├── face_verification.py       # DeepFace face matching
+├── ocr_engine.py              # OCR module
+├── preprocess.py              # Image preprocessing
+├── utils.py                   # Utility functions
+├── config.yaml                # Configuration file
+├── requirements.txt           # Dependencies
+├── README.md                  # Project documentation
+
+
+<img src="asset/output" alt="Registration UI" width="800"/>
+
+
+
 ## 📁 Project Structure
 
 ```bash
