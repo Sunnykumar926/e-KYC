@@ -75,6 +75,29 @@ The following libraries are required to run this project:
    pip install -r requirements.txt
    pip install -r requirements_deepface.txt
 
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+Inspired by the need for seamless, paperless KYC systems.
+
+Thanks to the developers of [DeepFace](https://github.com/serengil/deepface), [Tesseract OCR](https://github.com/tesseract-ocr/tesseract), and [Streamlit](https://streamlit.io/).
+
+Special appreciation to the open-source community for providing powerful tools and libraries that made this project possible.
+
+---
+
+## 📬 Contact
+
+**Author:** Sunny Kumar  
+📧 Email: sunnykumarbr85@gmail.com  
+🌐 GitHub: [Sunnykumar926](https://github.com/Sunnykumar926)
+
+
 4. **Run the Streamlit app:**
    ```bash
    streamlit run app.py
