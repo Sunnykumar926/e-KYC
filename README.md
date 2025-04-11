@@ -28,7 +28,7 @@ An end-to-end eKYC (Electronic Know Your Customer) system built with Python, Dee
 ├── README.md                  # Project documentation
 
 
-<img src="asset/output" alt="Registration UI" width="800"/>
+<img src="asset/output.png" alt="Registration UI" width="800"/>
 
 
 
