@@ -1,3 +1,6 @@
+# Output
+<img src="asset/output.png" alt="Registration UI" width="800"/>
+
 # 🛡️ eKYC System
 
 An end-to-end eKYC (Electronic Know Your Customer) system built with Python, DeepFace, OpenCV, and Streamlit to automate identity verification using face recognition and OCR.
@@ -26,10 +29,6 @@ An end-to-end eKYC (Electronic Know Your Customer) system built with Python, Dee
 ├── config.yaml                # Configuration file
 ├── requirements.txt           # Dependencies
 ├── README.md                  # Project documentation
-
-
-<img src="asset/output.png" alt="Registration UI" width="800"/>
-
 
 
 ## 📁 Project Structure
